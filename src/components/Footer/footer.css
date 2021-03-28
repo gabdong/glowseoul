@@ -1,0 +1,61 @@
+.footer {
+    width: 100%;
+    background: #000;
+    /* position */
+    position: relative;
+    z-index: 1;
+}
+.footer .footer_info {
+    width: 100%;
+    max-width: 1600px;
+    height: 440px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.footer .footer_info .footer_info_inner {
+    width: 80%;
+    height: 280px;
+    margin: 0 auto;
+}
+.footer .footer_info .footer_info_inner .footer_text {
+    width: 50%;
+    height: 280px;
+    padding-top: 20px;
+    /* float */
+    float: left;
+}
+.footer .footer_info .footer_info_inner .footer_text .company li {
+    height: 36px;
+    margin-left: 14px;
+    margin-bottom: 10px;
+    padding: 3px 0;
+    font-size: 14px;
+    font-weight: bold;
+    list-style-type: disc;
+    color: #777;
+}
+.footer .footer_info .footer_info_inner .footer_text .copyright {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.footer .footer_info .footer_info_inner .footer_text .copyright span {
+    color: #C79D70;
+}
+.footer .footer_info .footer_info_inner .footer_text .footer_small_text {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+}
+.footer .footer_info .footer_info_inner .footer_img {
+    width: 50%;
+    max-width: 460px;
+    height: 280px;
+    background-image: url(./images/map.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* float */
+    float: left;
+}

@@ -1,0 +1,210 @@
+.glowseoul {
+    width: 100%;
+}
+
+/* glowseoul mainvisual */
+.glowseoul .main_visual {
+    width: 100%;
+    height: 100vh;
+    /* position */
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.glowseoul .main_visual img {
+    width: 100%;
+    height: 100%;
+}
+.glowseoul .main_visual .dark {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    /* position */
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.glowseoul .main_visual .main_visual_text {
+    width: 100%;
+    text-align: center;
+    /* position */
+    position: fixed;
+    left: 0;
+    top: 45%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.glowseoul .main_visual .main_visual_text h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #C79D70;
+}
+.glowseoul .main_visual .main_visual_text h3 {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+.glowseoul .main_visual .main_visual_text .line {
+    width: 40px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background: #fff;
+}
+.glowseoul .main_visual .main_visual_text p {
+    font-size: 16px;
+    color: #fff;
+}
+/* //glowseoul mainvisual */
+
+
+/* glowseoul about */
+.glowseoul .glowseoul_about {
+    width: 100%;
+    height: 1400px;
+    background: #777;
+    margin-top: 95vh;
+    /* position */
+    position: relative;
+    z-index: 1;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner {
+    width: 80%;
+    background: #fff;
+    padding: 110px 60px 130px;
+    /* position */
+    position: absolute;
+    left: 50%;
+    top: -180px;
+    transform: translateX(-50%);
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner>h2 {
+    font-size: 35px;
+    text-align: center;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner h3 {
+    margin-top: 16px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #C79D70;
+}
+
+/* glowseoul about first */
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_first {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_first h2 {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_first ul {
+    width: 930px;
+    height: 330px;
+    margin: 0 auto;
+    margin-bottom: 140px;
+    /* position */
+    position: relative;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_first ul li {
+    width: 330px;
+    height: 330px;
+    border-radius: 170px;
+    opacity: 0.9;
+    /* position */
+    position: absolute;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_first ul li:nth-child(1) {
+    background: #0E0E0E;
+    left: 0;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_first ul li:nth-child(2) {
+    background: #C79D70;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_first ul li:nth-child(3) {
+    background: #777;
+    right: 0;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_first ul li .list_text {
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    /* position */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* //glowseoul about first */
+
+/* glowseoul team */
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_team {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_team .team_text {
+    width: 49%;
+    margin-right: 2%;
+    /* float */
+    float: left;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_team .team_text h2 {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_team .team_text>p {
+    margin-bottom: 40px;
+    font-size: 17px;
+    color: #777;
+    line-height: 1.5;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_team .team_text .company_info {
+    width: 100%;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_team .team_text .company_info .company_info_title {
+    width: 20%;
+    /* float */
+    float: left;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_team .team_text .company_info .company_info_title p {
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+    border-top: 1px solid #000;
+    font-weight: bold;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_team .team_text .company_info .company_info_text {
+    width: 70%;
+    /* float */
+    float: right;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_team .team_text .company_info .company_info_text p {
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+    border-top: 1px solid #000;
+    color: #777;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_team .team_img {
+    width: 49%;
+    height: 550px;
+    /* float */
+    float: left;
+}
+.glowseoul .glowseoul_about .glowseoul_about_inner .glowseoul_team .team_img img {
+    width: 100%;
+    height: 100%;
+}
+/* //glowseoul team */
+
+/* //glowseoul about */

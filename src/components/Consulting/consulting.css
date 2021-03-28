@@ -1,0 +1,214 @@
+.consulting {
+    width: 100%;
+}
+
+/* consulting mainvisual */
+.consulting .main_visual {
+    width: 100%;
+    height: 100vh;
+    /* position */
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.consulting .main_visual img {
+    width: 100%;
+    height: 100%;
+}
+.consulting .main_visual .dark {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    /* position */
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.consulting .main_visual .main_visual_text {
+    width: 100%;
+    text-align: center;
+    /* position */
+    position: fixed;
+    left: 0;
+    top: 45%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.consulting .main_visual .main_visual_text h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #C79D70;
+}
+.consulting .main_visual .main_visual_text h3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+.consulting .main_visual .main_visual_text p {
+    font-size: 16px;
+    color: #fff;
+}
+/* //consulting mainvisual */
+
+/* consulting about */
+.consulting .consulting_about {
+    width: 100%;
+    height: 1550px;
+    background: #777;
+    margin-top: 95vh;
+    /* position */
+    position: relative;
+    z-index: 1;
+}
+.consulting .consulting_about .consulting_about_inner {
+    width: 80%;
+    background: #fff;
+    padding: 110px 60px 130px;
+    /* position */
+    position: absolute;
+    left: 50%;
+    top: -180px;
+    transform: translateX(-50%);
+}
+.consulting .consulting_about .consulting_about_inner>h2 {
+    font-size: 35px;
+    text-align: center;
+}
+.consulting .consulting_about .consulting_about_inner h3 {
+    margin-top: 16px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #C79D70;
+}
+/* //consulting about */
+
+/* consulting about first */
+.consulting .consulting_about .consulting_about_inner .consulting_first {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_first h2 {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_first ul {
+    width: 630px;
+    height: 330px;
+    margin: 0 auto;
+    margin-bottom: 140px;
+    /* position */
+    position: relative;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_first ul li {
+    width: 330px;
+    height: 330px;
+    border-radius: 170px;
+    opacity: .9;
+    /* position */
+    position: absolute;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_first ul li:nth-child(1) {
+    background: #0e0e0e;
+    left: 0;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_first ul li:nth-child(2) {
+    background: #C79D70;
+    right: 0;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_first ul li .list_text {
+    color: #fff;
+    text-align: center;
+    /* position */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.consulting .consulting_about .consulting_about_inner .consulting_first ul li .list_text .list_title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_first ul li .list_text .list_normal {
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* //consulting about first */
+
+/* consulting customized */
+.consulting .consulting_about .consulting_about_inner .consulting_customized {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_customized h2 {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_customized p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.5;
+}
+/* //consulting customized */
+
+/* consulting last */
+.consulting .consulting_about .consulting_about_inner .consulting_last {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_last h2 {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_last ul {
+    margin-bottom: 60px;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_last ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #777;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_last .step_box_wrapper {
+    width: 100%;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_last .step_box {
+    width: 32%;
+    height: 280px;
+    margin-right: 2%;
+    padding: 40px 16px;
+    border: 1px solid #eee;
+    /* float */
+    float: left;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_last .step_box .step_text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #c9c9c9;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_last .step_box h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0e0e0e;
+    margin-bottom: 30px;
+}
+.consulting .consulting_about .consulting_about_inner .consulting_last .step_box .normal_text {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    line-height: 1.5;
+}
+/* //consulting last */

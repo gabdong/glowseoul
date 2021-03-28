@@ -1,0 +1,206 @@
+.space {
+    width: 100%;
+}
+
+/* space mainvisual */
+.space .main_visual {
+    width: 100%;
+    height: 100vh;
+    /* position */
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.space .main_visual img {
+    width: 100%;
+    height: 100%;
+}
+.space .main_visual .dark {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    /* position */
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.space .main_visual .main_visual_text {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 45%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.space .main_visual .main_visual_text h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #c79d70;
+}
+.space .main_visual .main_visual_text h3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+.space .main_visual .main_visual_text p {
+    font-size: 16px;
+    color: #fff;
+}
+/* //space mainvisual */
+
+/* space about */
+.space .space_about {
+    width: 100%;
+    height: 1500px;
+    background: #777;
+    margin-top: 95vh;
+    /* position */
+    position: relative;
+    z-index: 1;
+}
+.space .space_about .space_about_inner {
+    width: 80%;
+    background: #fff;
+    padding: 100px 60px 130px;
+    /* position */
+    position: absolute;
+    left: 50%;
+    top: -180px;
+    transform: translateX(-50%);
+}
+.space .space_about .space_about_inner>h2 {
+    font-size: 35px;
+    text-align: center;
+}
+.space .space_about .space_about_inner h3 {
+    margin-top: 16px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #c79d70;
+}
+/* //space about */
+
+/* space about first */
+.space .space-about .space_about_inner .space_first {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.space .space_about .space_about_inner .space_first h2 {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.space .space_about .space_about_inner .space_first ul {
+    width: 330px;
+    height: 330px;
+    margin: 0 auto;
+    margin-bottom: 140px;
+    /* position */
+    position: relative;
+}
+.space .space_about .space_about_inner .space_first ul li {
+    width: 100%;
+    height: 100%;
+    border-radius: 170px;
+    opacity: 0.9;
+    background: #c79d70;
+    /* position */
+    position: absolute;
+}
+.space .space_about .space_about_inner .space_first ul li .list_text {
+    color: #fff;
+    text-align: center;
+    /* position */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.space .space_about .space_about_inner .space_first ul li .list_text .list_title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.space .space_about .space_about_inner .space_first ul li .list_text .list_normal {
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* //space about first */
+
+/* space info */
+.space .space_about .space_about_inner .space_info {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.space .space_about .space_about_inner .space_info h2 {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.space .space_about .space_about_inner .space_info p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.5;
+}
+/* //space info */
+
+/* space last */
+.space .space_about .space_about_inner .space_last {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.space .space_about .space_about_inner .space_last h2 {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.space .space_about .space_about_inner .space_last ul {
+    margin-bottom: 60px;
+}
+.space .space_about .space_about_inner .space_last ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #777;
+}
+.space .space_about .space_about_inner .space_last .step_box_wrapper {
+    width: 100%;
+}
+.space .space_about .space_about_inner .space_last .step_box {
+    width: 24%;
+    height: 280px;
+    margin-right: 1.3333333333333%;
+    padding: 40px 16px;
+    border: 1px solid #eee;
+    /* flaot */
+    float: left;
+}
+.space .space_about .space_about_inner .space_last .step_box .step_text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #c9c9c9;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.space .space_about .space_about_inner .space_last .step_box h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e0e0e;
+    margin-bottom: 30px;
+}
+.space .space_about .space_about_inner .space_last .step_box .normal_text {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    line-height: 1.5;
+}
+/* //space last */
