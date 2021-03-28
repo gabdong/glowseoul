@@ -4,7 +4,7 @@
 
 ***
 React에 대한 이해와 경험을위해 Glowseoul의 기존 홈페이지를 React Router Dom을 이용하여 클론코딩하였습니다.
-Header, Contents, Footer 별로 컴포넌트를 만들어 라우팅을 구현하였습니다
+Header, Contents, Footer 별로 컴포넌트를 만들었고 화면 전환시 새로고침 없이 라우팅되는 SPA(Single Page Application)을 만들었습니다.
 
 ### issue
 - 이미지의 src가 상대경로로 설정돼 있으면 라우팅시 경로를 제대로 읽지 못하는 이슈가 있어 절대경로를 이용하여 해결하였습니다.
